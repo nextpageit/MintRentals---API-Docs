@@ -1,0 +1,32 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "title": "Rest Api",
+  "url" : "https://www.mintrentals.co.nz/api",
+  "header": {
+    "title": "MintRentals API Documentation",
+    "filename": "header.md"
+  },
+  "footer": {
+    "title": "",
+    "filename": "footer.md"
+  },
+  "order": [
+    "GetUser",
+    "PostUser",
+    "CreateAccount",
+    "CreateUser",
+    "AuthenticateSession",
+    "GetFolders",
+    "GetFileHeiarchy",
+    "GetRow"
+  ],
+  "template": {
+    "withCompare": true,
+    "withGenerator": true
+  },
+   "generator": {
+    "version": "2.0.0"
+  }
+}
